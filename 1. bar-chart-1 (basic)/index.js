@@ -15,3 +15,5 @@ barEnter.style("width", function(data){return data * 10 + "px"}); //trivial styl
 															//Also note that we only define DATA-BASED styles here -- rest of static styling (color, align, etc), goes in css.
 barEnter.text(function(data){return data}); //trivial text addition
 //Both of the above operations add attributes (.style and .text) to the barEnter element. These can be chained later.
+
+//adapted from: https://bost.ocks.org/mike/bar/

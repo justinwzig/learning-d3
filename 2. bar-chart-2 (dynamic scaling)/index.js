@@ -35,3 +35,5 @@ d3.select(".chart")
 //That's all there is to it. While you will usually see d3 written in method-chains,
 //a good exercise is to write something non-chained, and then convert it into a chained method.
 //This helps you practice thinking in chained methods.
+
+//adapted from: https://bost.ocks.org/mike/bar/
