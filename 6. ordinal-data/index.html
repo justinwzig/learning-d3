@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<!-- gotta add the charset because svg -->
+
+<style>
+    .chart rect {
+        fill: steelblue;
+    }
+
+    .chart rect:hover {
+        fill: lightskyblue;
+    }
+
+    .chart text {
+        display: none;
+        fill: white;
+        font: 10px sans-serif;
+        text-anchor: end;
+    }
+</style>
+
+<svg class="chart"></svg>
+<!-- Note that this is an SVG, not a div! -->
+<script src="https://d3js.org/d3.v3.js" charset="utf-8"></script>
+<script src="index.js"></script>
