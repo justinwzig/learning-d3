@@ -10,4 +10,4 @@ I'll also do my best to link the tutorial I'm learning from (and stealing code f
 
 To run each lesson, I use http-server from npm.
 
-litty let's get graphin'
+let's get graphin'
