@@ -4,18 +4,20 @@
 <style>
 
     .chart rect {
-        fill: steelblue;
-    }
-
-    .chart rect:hover {
-        fill:lightskyblue;
+        border: 1px solid black;
+        fill: black   
     }
 
     .chart text {
-        display: none;
-        fill: white;
+        fill: black;
         font: 10px sans-serif;
         text-anchor: end;
+    }
+
+    .axis path, line {
+        fill:none;
+        stroke: #000000;
+        shape-rendering: crispEdges;
     }
 
 </style>
